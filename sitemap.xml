@@ -1,24 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://troyrowan.github.io/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/project/gpsm/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/project/imputation/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/project/localadaptation/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/project/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/publication/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://troyrowan.github.io/publication/publink/</loc>
+    <lastmod>2020-02-20T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://troyrowan.github.io/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://troyrowan.github.io/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://troyrowan.github.io/authors/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://troyrowan.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -27,11 +55,6 @@
   
   <url>
     <loc>https://troyrowan.github.io/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://troyrowan.github.io/publication/</loc>
   </url>
   
   <url>
@@ -40,7 +63,6 @@
   
   <url>
     <loc>https://troyrowan.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Academic</title>
+    <link>https://troyrowan.github.io/project/</link>
+    <description>Recent content in Projects on Academic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://troyrowan.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generation Proxy Selection Mapping</title>
+      <link>https://troyrowan.github.io/project/gpsm/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://troyrowan.github.io/project/gpsm/</guid>
+      <description>&lt;p&gt;I am interested in understanding how artificial and natural selection on complex traits change the genome over time. Most methods for detecting selection rely on identifying allele frequency differences between diverged populations (like FST or FLK) or on genomic signatures that have developed due to rapid allele frequency changes (like measures of haplotype homozygosity or singleton density). These methods have had success in identifying selective sweeps on loci affecting simple traits (e.g. &lt;em&gt;POLLED&lt;/em&gt;, &lt;em&gt;MC1R&lt;/em&gt;, &lt;em&gt;KIT&lt;/em&gt;) or very large-effect QTL (e.g. &lt;em&gt;DGAT&lt;/em&gt;, &lt;em&gt;LCORL&lt;/em&gt;, &lt;em&gt;PLAG1&lt;/em&gt;). These methods struggle to detect ongoing polygenic selection within homogeneous populations (like cattle in the US).&lt;/p&gt;
+&lt;p&gt;We’ve developed a simple method, Generation Proxy Selection Mapping (GPSM), for detecting polygenic selection within a population that has multiple generations of genotype data. We assume that alleles under selection will be at a significantly different frequency in recent compared to distant generations. GPSM is essentially a GWAS for generation number. Instead of a continuous measured phenotype, we fit some proxy for generation number (birth year, selection cycle, radiocarbon date, etc.) as the dependent variable. Using a linear mixed model allows us to control for potential confounding population and family structure.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;GPSM_model.png&#34; &gt;
+
+&lt;img src=&#34;GPSM_model.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;GPSM tests for changes in allele frequency greater than would be expected due to drift. A linear mixed model controls for uneven sampling of generations and family structure.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;When applied to U.S. beef cattle populations we identify dozens of genomic regions under selection. These regions overlap known Mendelian loci, large-effect QTL, and novel targets of selection. Our real data and simulations both suggest that GPSM is able to identify exceedingly small allele frequency changes over very short periods of time, consistent with ongoing polygenic selection.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;Simmental_Mendelians.png&#34; &gt;
+
+&lt;img src=&#34;Simmental_Mendelians.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;When applied to US Simmental cattle populations, GPSM detects three known Mendelian loci under selection.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Genotype Imputation</title>
+      <link>https://troyrowan.github.io/project/imputation/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://troyrowan.github.io/project/imputation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Adaptation in US Beef Cattle</title>
+      <link>https://troyrowan.github.io/project/localadaptation/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://troyrowan.github.io/project/localadaptation/</guid>
+      <description>&lt;p&gt;Beef cattle are one of the last major livestock species in the U.S. that have not moved into confinements with controlled environments. Cows spend their entire lives outside, and are raised in a variety of environments, each with a unique combination of stressors. Anecdotal and experimental data suggests that some cattle are better adapted to certain environments than others. My research attempts to identify genetic variants that control adaptation in cattle populations. We plan to use these variants to produce environment-specific breeding values that will provide producers with selection tools to identify the best animals for their region. This work also provides insight into the complex biology of adaptation in mammals.&lt;/p&gt;
+&lt;p&gt;Our ability to detect adaptive variants relies on the assumption that well-adapted cattle will go on to produce lots of offspring within their home region while poorly adapted cattle will be quickly culled from herds. We anticipate that this selection will create detectable frequency differences at alleles involved in adaptation. We identify these genomic regions using continuous and discrete definitions of climate as dependent variables in genome-wide linear mixed models. This allows us to control for the relatedness of individuals across climates and identify likely adaptive variants. We group animals into statistically-derived ecoregions (based on long-term climate data). Other work in our group is developing ecoregion-specific EPDs that will allow producers to select animals that are well-adapted to their local environment.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;region_map.png&#34; &gt;
+
+&lt;img src=&#34;region_map.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;Statistically-derived ecoregions (from long-term temperature, precipitation, and elevation data)&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;When applied to U.S. cattle populations, we identify dozens of genomic regions in each breed associated with environment. These areas are enriched for genes that play roles in neural development and signalling, as well as in the secretion of hormones involved in vasoconstriction and vasodilation. We suspect that these adaptations allow animals to adapt to a number of stressors like heat, cold, and toxic fescue. When we search for loci undergoing ecoregion-specific selection (changing in frequency in one region, but not the others), it appears that local adaptation is being eroded through the use of artificial insemination as opposed to being positively selected for.&lt;/p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;envGWAS.png&#34; &gt;
+
+&lt;img src=&#34;envGWAS.png&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; &gt;
+  &lt;h4&gt;We fit discrete ecoregions and continuous environmental variables as dependent variables in GWAS models to map local adaptation and identify dozens of genomic regions.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;For a more in depth look at this work, &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/2020.03.11.988121v1&#34;&gt;read our preprint&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
